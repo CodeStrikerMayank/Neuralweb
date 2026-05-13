@@ -1,0 +1,86 @@
+[
+  {
+    "category": "ml",
+    "name": "supervised-learning",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/supervised-learning",
+    "desc": "Implementations of algorithms trained on labeled data. Includes classification models, regression analysis, and Support Vector Machines (SVMs)."
+  },
+  {
+    "category": "ml",
+    "name": "unsupervised-learning",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/unsupervised-learning",
+    "desc": "Algorithms for discovering hidden patterns in unlabeled data. Focuses on clustering and dimensionality reduction."
+  },
+  {
+    "category": "ml",
+    "name": "reinforcement-learning",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/reinforcement-learning",
+    "desc": "Environment-interaction models where agents learn via reward systems. Includes Q-learning and autonomous agents."
+  },
+  {
+    "category": "ai",
+    "name": "deep-learning",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/deep-learning",
+    "desc": "Complex neural network architectures: CNNs, RNNs, Transformers, and GANs."
+  },
+  {
+    "category": "ai",
+    "name": "nlp-and-llms",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/nlp-and-llms",
+    "desc": "NLP tools, text classification, RAG architectures, and fine-tuning pipelines for LLMs."
+  },
+  {
+    "category": "ai",
+    "name": "computer-vision",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/computer-vision",
+    "desc": "Visual data processing systems: object detection, OCR tools, and image segmentation logic."
+  },
+  {
+    "category": "data",
+    "name": "data-engineering",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/data-engineering",
+    "desc": "Backbone operations: ETL pipelines, Apache Spark, Airflow DAGs, and advanced SQL."
+  },
+  {
+    "category": "data",
+    "name": "exploratory-data-analysis",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/exploratory-data-analysis",
+    "desc": "Notebooks for initial data investigations, automated profiling, and correlation analysis."
+  },
+  {
+    "category": "data",
+    "name": "feature-engineering",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/feature-engineering",
+    "desc": "Preprocessing techniques: categorical encoding, feature scaling, and automated selection."
+  },
+  {
+    "category": "data",
+    "name": "statistical-analysis",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/statistical-analysis",
+    "desc": "Rigorous mathematical modeling, hypothesis testing, and A/B testing execution."
+  },
+  {
+    "category": "data",
+    "name": "time-series-analysis",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/time-series-analysis",
+    "desc": "Analyzing temporal data: ARIMA models, forecasting algorithms, and anomaly detection."
+  },
+  {
+    "category": "data",
+    "name": "data-visualization",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/data-visualization",
+    "desc": "Visual representation layer: Matplotlib, Plotly, and interactive D3.js dashboards."
+  },
+  {
+    "category": "ops",
+    "name": "mlops-and-deployment",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/mlops-and-deployment",
+    "desc": "Production infrastructure: CI/CD automation, Dockerization, and API scripts for model serving."
+  },
+  {
+    "category": "ops",
+    "name": "demo-repository",
+    "url": "https://github.com/AI-DATA-PROJECTS-HUB/demo-repository",
+    "desc": "Baseline template codebase demonstrating standard structure and best practices."
+  }
+]
