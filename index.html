@@ -297,7 +297,7 @@
             width: 100%;
             max-width: 1200px;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 2rem;
         }
 
@@ -627,7 +627,7 @@
             </div>
 
             <div class="social-grid">
-                <div class="social-card reveal" style="--p-color: var(--violet);">
+                <div class="social-card reveal" style="--p-color: var(--violet);" onclick="window.open('https://empty-recipe-16da.krishnanmayank915.workers.dev', '_blank')">
                     <video src="discord.mp4" autoplay loop muted playsinline></video>
                     <div class="social-overlay"></div>
                     <div class="content">
@@ -636,7 +636,7 @@
                         <p>Real-time neural synchronization and community intelligence exchange with elite engineers.</p>
                     </div>
                 </div>
-                <div class="social-card reveal" style="--p-color: var(--primary);" onclick="window.open('https://github.com/AI-DATA-PROJECTS-HUB', '_blank')">
+                <div class="social-card reveal" style="--p-color: var(--primary);" onclick="window.open('https://empty-recipe-16da.krishnanmayank915.workers.dev', '_blank')">
                     <video src="github.mp4" autoplay loop muted playsinline></video>
                     <div class="social-overlay"></div>
                     <div class="content">
@@ -645,13 +645,22 @@
                         <p>Direct bridge to the core repository. Source code synchronization and algorithmic blueprints.</p>
                     </div>
                 </div>
-                <div class="social-card reveal" style="--p-color: var(--blue);" onclick="window.open('https://chat.whatsapp.com/J3W3rfVV7Og0oGc9kJt8lJ', '_blank')">
+                <div class="social-card reveal" style="--p-color: var(--blue);" onclick="window.open('https://empty-recipe-16da.krishnanmayank915.workers.dev', '_blank')">
                     <video src="whatsapp.mp4" autoplay loop muted playsinline></video>
                     <div class="social-overlay"></div>
                     <div class="content">
                         <span class="mono id">LINK_NODE_03</span>
                         <h3>WhatsApp</h3>
                         <p>Encrypted communication channel established for immediate operational updates and alerts.</p>
+                    </div>
+                </div>
+                <div class="social-card reveal" style="--p-color: #ffaa00;" onclick="window.open('https://empty-recipe-16da.krishnanmayank915.workers.dev', '_blank')">
+                    <video src="road.mp4" autoplay loop muted playsinline></video>
+                    <div class="social-overlay"></div>
+                    <div class="content">
+                        <span class="mono id">LINK_NODE_04</span>
+                        <h3>Roadmap</h3>
+                        <p>Strategic evolution path and future technological milestones of the Neural Nexus ecosystem.</p>
                     </div>
                 </div>
             </div>
@@ -875,6 +884,22 @@
         function disconnect() {
             document.getElementById('repo-overlay').classList.remove('active');
             document.body.classList.remove('locked');
+        }
+
+        function establishLink(url) {
+            const hs = document.getElementById('handshake');
+            const hsMsg = document.getElementById('hs-msg');
+            const originalMsg = hsMsg.textContent;
+            hsMsg.textContent = "ESTABLISHING_LINK_TO_NEXUS_CORE...";
+            hs.style.display = 'flex';
+            
+            setTimeout(() => {
+                window.open(url, '_blank');
+                setTimeout(() => {
+                    hs.style.display = 'none';
+                    hsMsg.textContent = originalMsg;
+                }, 500);
+            }, 1000);
         }
 
         // 5. THREE.JS GLOBE
